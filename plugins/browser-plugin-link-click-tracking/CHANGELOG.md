@@ -1,6 +1,11 @@
 # Change Log - @montugroup/browser-plugin-link-click-tracking
 
-This log was last generated on Fri, 02 Aug 2024 02:44:30 GMT and should not be manually modified.
+This log was last generated on Fri, 02 Aug 2024 04:05:54 GMT and should not be manually modified.
+
+## 3.24.4
+Fri, 02 Aug 2024 04:05:54 GMT
+
+_Version update only_
 
 ## 3.24.3
 Fri, 02 Aug 2024 02:44:30 GMT
