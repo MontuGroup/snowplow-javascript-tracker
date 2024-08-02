@@ -35,6 +35,23 @@ You may need to remove volta from your path. It seems to install the latest node
 1. Setup a [PAT](https://github.com/settings/tokens) with write packages. Copy your token.
 1. Configure SSO.
 1. Save the PAT in your password manager for later.
+1. Run build.
+    ```
+    rush build
+    ```
+1. Commit your changes.
+    ```
+    git commit --no-verify
+    ```
+    I can't work out how to disable the git hooks.
+1. Run version.
+    ```
+    rush version --bump --target-branch master --ignore-git-hooks
+    ```
+1. Build again.
+    ```
+    rush build
+    ```
 1. Run rush publish
     ```
     NPM_AUTH_TOKEN=123456 sh publish.sh

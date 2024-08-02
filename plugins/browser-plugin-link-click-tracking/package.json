@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/MontuGroup/snowplow-javascript-tracker.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "license": "BSD-3-Clause",
   "author": "Paul Boocock",
   "sideEffects": false,
