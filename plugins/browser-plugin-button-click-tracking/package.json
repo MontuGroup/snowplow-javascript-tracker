@@ -1,6 +1,6 @@
 {
   "name": "@montugroup/browser-plugin-button-click-tracking",
-  "version": "3.24.2",
+  "version": "3.24.3",
   "description": "Button Click tracking for Snowplow",
   "homepage": "https://github.com/snowplow/snowplow-javascript-tracker",
   "bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",

@@ -1,6 +1,6 @@
 {
   "name": "@montugroup/browser-plugin-link-click-tracking",
-  "version": "3.24.2",
+  "version": "3.24.3",
   "description": "Link Click tracking for Snowplow",
   "homepage": "http://bit.ly/sp-js",
   "bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",
