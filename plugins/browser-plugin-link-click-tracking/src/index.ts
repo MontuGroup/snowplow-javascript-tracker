@@ -181,7 +181,8 @@ function processClick(tracker: BrowserTracker, sourceElement: Element, context?:
 
     // Ignore script pseudo-protocol links
     if (!scriptProtocol.test(sourceHref)) {
-      elementId = anchorElement.id;
+      elementId = anchorElement.dataset?.trackingId || anchorElement.id;
+
       elementClasses = getCssClasses(anchorElement);
       elementTarget = anchorElement.target;
       elementContent = _configuration[tracker.id].linkTrackingContent ? anchorElement.innerHTML : undefined;

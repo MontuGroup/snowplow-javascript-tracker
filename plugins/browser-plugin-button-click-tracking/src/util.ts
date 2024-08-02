@@ -53,6 +53,7 @@ export function createEventFromButton(
   }
 
   button.id && (ret.id = button.id);
+  button.dataset?.trackingId && (ret.id = button.dataset.trackingId);
   button.name && (ret.name = button.name);
   button.classList.length && (ret.classes = Array.from(button.classList));
 

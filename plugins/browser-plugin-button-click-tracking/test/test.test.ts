@@ -180,6 +180,14 @@ describe('Button Click Tracking Plugin', () => {
         input.setAttribute('data-sp-button-label', 'testLabelFromAttribute');
         expect(createEventFromButton(input).label).toEqual('testLabelFromAttribute');
       });
+
+      it('should use data-tracking-id over id', () => {
+        const input = document.createElement('button');
+        input.id = 'lame-id';
+
+        input.setAttribute('data-tracking-id', 'my-cool-button');
+        expect(createEventFromButton(input).id).toEqual('my-cool-button');
+      });
     });
   });
 });
