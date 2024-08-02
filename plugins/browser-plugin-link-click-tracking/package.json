@@ -1,12 +1,12 @@
 {
-  "name": "@snowplow/browser-plugin-link-click-tracking",
+  "name": "@montugroup/browser-plugin-link-click-tracking",
   "version": "3.24.2",
   "description": "Link Click tracking for Snowplow",
   "homepage": "http://bit.ly/sp-js",
   "bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowplow/snowplow-javascript-tracker.git"
+    "url": "https://github.com/MontuGroup/snowplow-javascript-tracker.git"
   },
   "license": "BSD-3-Clause",
   "author": "Paul Boocock",

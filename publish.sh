@@ -1,0 +1,1 @@
+rush publish --apply --include-all --publish --target-branch master --ignore-git-hooks --set-access-level public --registry https://npm.pkg.github.com
