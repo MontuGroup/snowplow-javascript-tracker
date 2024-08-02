@@ -1,6 +1,11 @@
-# Change Log - @snowplow/browser-plugin-button-click-tracking
+# Change Log - @montugroup/browser-plugin-button-click-tracking
 
-This log was last generated on Wed, 24 Jul 2024 08:59:00 GMT and should not be manually modified.
+This log was last generated on Fri, 02 Aug 2024 02:44:30 GMT and should not be manually modified.
+
+## 3.24.3
+Fri, 02 Aug 2024 02:44:30 GMT
+
+_Version update only_
 
 ## 3.24.2
 Wed, 24 Jul 2024 08:59:00 GMT
